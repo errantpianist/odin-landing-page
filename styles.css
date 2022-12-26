@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.upper,
+.upper-middle,
+.lower-middle,
+.lower {
+    flex: 1;
+}
+
+.upper-middle {
+    display: flex;
+    flex-direction: column;
+}
+.upper, .footer {
+    background-color: #1F2937;
+    color: white;
+    
+    
+}
+.upper {
+    padding: 0px 80px 40px;
+}
+
+h2.logo {
+    padding-top: 0;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 8px;
+    font-size: 10px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 0;
+    margin: 0;
+
+}
+li {
+    padding: 0 8px;
+}
+
+.left {
+    text-align: left;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+.upper-content {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.heading, img {
+    width: 50%;
+    margin: 60px 0;
+}
+h1 {
+   margin: 0;
+}
+h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 12px 80px;
+}
+
+.card-box {
+    height: 80px;
+    width: 80px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 83px;
+    margin: 0 24px;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.lower-middle {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 12px 140px;
+}
+
+blockquote p{
+    font-size: 18px;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #3882F6;
+    margin: 40px 80px;
+    border-radius: 5px;
+
+}
+.lower-text {
+    padding: 24px;
+}
+h3 {
+    margin: 0;
+}
+
+#sign-up-text {
+    margin: 0;
+
+}
+
+figcaption {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+#sign-up {
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
